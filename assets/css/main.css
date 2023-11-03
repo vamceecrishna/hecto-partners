@@ -48,6 +48,11 @@ a:hover {
   text-decoration: none;
 }
 
+a[href^=tel], a[href^=mailto]{
+  text-decoration: inherit;
+  color: inherit;
+}
+
 h1,
 h2,
 h3,
